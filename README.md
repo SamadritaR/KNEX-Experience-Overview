@@ -71,7 +71,7 @@ The outcome was a framework that felt **well-rounded, transparent, and actionabl
 
 I created a **Product Management Enablement Plan** focused on building a clear, repeatable PRD system for KNEX. The goal was to make documentation not just a formality, but an **enabler of smoother execution and stronger alignment**.  
 
-#### 🔹 What We Did  
+####  What We Did  
 - Drew inspiration from **Jira/Confluence best practices**, but built everything inside KNEX’s context and tools (no external platform used).  
 - Designed a **modular PRD template** that works across all KNEX products, including:  
   - Problem & business context  
@@ -81,13 +81,13 @@ I created a **Product Management Enablement Plan** focused on building a clear, 
   - Decision log for key choices  
 - Developed a **step-by-step enablement guide** so teams knew not just *what to write*, but *why it mattered*.  
 
-#### 🔹 How We Did It  
+####  How We Did It  
 - Reviewed gaps in existing documentation.  
 - Drafted the PRD pack, then tested it live with product discussions.  
 - Took feedback from leadership and PMs, simplifying where things were too heavy and adding clarity where needed.  
 - Connected the PRD pack with the **roadmap execution sheet**, so specs flowed naturally into delivery.  
 
-#### 🔹 Why It Worked  
+####  Why It Worked  
 - **Unified:** every product team worked with the same approach.  
 - **Adoptable:** lightweight enough that people actually used it.  
 - **Traceable:** tied strategy → roadmap → execution in one flow.  
