@@ -5,7 +5,7 @@ About the Role
 - Contributed to **roadmap structuring, PRD documentation, feature prioritization, and AI integration research** across multiple KNEX products.
 
 ##  Key Responsibilities  
-- Built a **universal product prioritization framework** in Excel, aligned with Oracle-style decision-making, designed for reusability across all KNEX products.  
+- Built KNEX's first **cross-product prioritization framework** in Excel, aligned with Oracle-style decision-making, designed for reusability across all KNEX products.  
 - Designed a **roadmap methodology** based on Oracle’s 3-tier structure (Plan of Record, Plan of Intent, Plan of Direction).  
 - Conducted **AI feasibility studies** for KNEX products, producing actionable recommendations.  
 - Evaluated **Oracle Fusion’s data migration limitations** and developed mitigation strategies for unified reporting.  
