@@ -17,7 +17,7 @@ About the Role
 
 ### 1. Universal Product Prioritization Framework  
 
-I created a **universal framework in Excel** that could be reused across all KNEX products. The main goal was to make prioritization **objective, structured, and easy to communicate**. To achieve that, I combined multiple well-known models instead of relying on just one. Each model added its own perspective:  
+I created an **universal framework in Excel** that could be reused across all KNEX products. The main goal was to make prioritization **objective, structured, and easy to communicate**. To achieve that, I combined multiple well-known models instead of relying on just one. Each model added its own perspective:  
 
 - **ESVF (Effort, Strategic Value, Financial Impact, Feasibility):**  
   - Helped us score features on a balanced scale.  
