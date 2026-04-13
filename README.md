@@ -96,13 +96,12 @@ I created a **Product Management Enablement Plan** focused on building a clear, 
 The outcome was a PRD system that **reduced confusion, improved accountability, and made product management more effective across KNEX**.  
 
 ---
-
 ### 4. AI Integration Research & Recommendations  
 - **Lease Abstraction Agent (LAA):** Automated lease data extraction  
 - **AI Load Checker:** System load monitoring + optimization signals  
 - **Inventory Flow Agent:** Tracking + forecasting improvements  
 - **Unified Dashboard:** Cross-product insights for leadership  
-- Kept ideas **practical and cost-aware**, focusing on measurable impact.  
+- Kept ideas **practical and cost-aware**, focusing on measurable impact.
 
 ---
 
@@ -112,4 +111,61 @@ The outcome was a PRD system that **reduced confusion, improved accountability, 
 
 ---
 
+### 6. AI Feasibility Study – 15 Use Case Evaluation
+
+I led an end-to-end AI feasibility evaluation across **15 potential AI use cases** for KNEX products. The goal was to move the team from broad AI curiosity to a focused, investment-ready shortlist.
+
+#### What We Did
+
+* Audited **15 proposed AI initiatives** spanning automation, intelligence, and integration across KNEX product lines.
+* Evaluated each use case across four dimensions:
+  + **System Architecture fit** – Does KNEX's current tech stack support this? What would need to change?
+  + **Data Quality & Availability** – Is the underlying data clean, structured, and accessible enough to train or power the model?
+  + **Integration Complexity** – How many systems, APIs, or workflows would this touch? What's the risk of breakage?
+  + **Cost-Benefit Analysis** – What's the estimated lift (time saved, accuracy gained, revenue potential) relative to the build cost?
+* Synthesized findings into an **executive-ready presentation** with a tiered recommendation framework: build now, explore further, or deprioritize.
+
+#### How We Did It
+
+* Mapped each use case against KNEX's existing data infrastructure and product architecture.
+* Collaborated with engineering leads to pressure-test feasibility assumptions.
+* Scored each initiative on a structured rubric, then ranked them by strategic value and implementation readiness.
+* Packaged findings into a clear narrative: what's possible now, what's possible with investment, and what's not yet viable.
+
+#### Why It Worked
+
+* **Grounded in reality:** recommendations were tied to KNEX's actual data and system constraints, not generic AI hype.
+* **Actionable:** leadership walked away with a concrete shortlist, not a long wish list.
+* **Executive-ready:** the framing was designed for decision-makers — each recommendation included a one-line rationale and clear next step.
+
+**Outcome:** 3 initiatives advanced to deeper scoping; **2 were formally greenlit** for development — including the Lease Abstraction Agent and the RAG-based chatbot.
+
+---
+
+### 7. Prioritization Signal Study – A/B Testing Framework
+
+To improve how KNEX made release sequencing decisions, I designed and ran a structured analysis to determine which prioritization signals were actually predictive of on-time delivery.
+
+#### What We Did
+
+* Identified two competing prioritization philosophies in use across KNEX teams:
+  + **Effort-first:** sequence features by build complexity, tackle the heaviest items early.
+  + **Strategic value-first:** sequence features by business impact, ship high-value items first.
+* Structured an **A/B comparison** across roadmap cycles to test which signal better predicted whether releases shipped on time.
+* Tracked delivery outcomes against the signal used during planning for each cycle.
+
+#### How We Did It
+
+* Pulled historical roadmap and delivery data across product lines.
+* Tagged each release cycle by which prioritization signal dominated the planning discussion.
+* Compared on-time delivery rates across both groups.
+* Controlled for confounding factors (team size, scope changes, dependency blockers) to isolate the effect of the prioritization input.
+
+#### Why It Worked
+
+* **Data-driven, not opinion-driven:** instead of debating frameworks in the abstract, we let delivery data answer the question.
+* **Directly actionable:** findings were tied to a specific process change — which input to weight more heavily during sprint planning.
+* **Cross-team buy-in:** because the analysis was transparent and evidence-based, leadership accepted the recommendation without pushback.
+
+**Outcome:** Findings were presented to leadership and directly influenced how KNEX sequences its roadmap. Strategic value was confirmed as the stronger predictor of on-time delivery, and the framework was adopted as a default input for future release planning cycles.
 
