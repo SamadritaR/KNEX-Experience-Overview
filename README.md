@@ -1,7 +1,7 @@
 # KNEX-Experience-Overview
 About the Role  
-**Product Intern** (Mar 2025 – Aug 2025)  
-- Worked directly with the CEO and product team on **AI-driven product development, product strategy, and data management initiatives**.  
+**Product Analyst Intern** (Mar 2025 – Aug 2025)  
+- Worked directly with the CEO and product team on **AI-driven product development, product strategy, data management and product analytics initiatives**.  
 - Contributed to **roadmap structuring, PRD documentation, feature prioritization, and AI integration research** across multiple KNEX products.
 
 ##  Key Responsibilities  
