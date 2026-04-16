@@ -115,7 +115,7 @@ The outcome was a PRD system that **reduced confusion, improved accountability, 
 
 I led an end-to-end AI feasibility evaluation across **15 potential AI use cases** for KNEX products. The goal was to move the team from broad AI curiosity to a focused, investment-ready shortlist.
 
-#### What We Did
+#### What I Did
 
 * Audited **15 proposed AI initiatives** spanning automation, intelligence, and integration across KNEX product lines.
 * Evaluated each use case across four dimensions:
@@ -125,7 +125,7 @@ I led an end-to-end AI feasibility evaluation across **15 potential AI use cases
   + **Cost-Benefit Analysis** – What's the estimated lift (time saved, accuracy gained, revenue potential) relative to the build cost?
 * Synthesized findings into an **executive-ready presentation** with a tiered recommendation framework: build now, explore further, or deprioritize.
 
-#### How We Did It
+#### How I Did It
 
 * Mapped each use case against KNEX's existing data infrastructure and product architecture.
 * Collaborated with engineering leads to pressure-test feasibility assumptions.
@@ -146,7 +146,7 @@ I led an end-to-end AI feasibility evaluation across **15 potential AI use cases
 
 To improve how KNEX made release sequencing decisions, I designed and ran a structured analysis to determine which prioritization signals were actually predictive of on-time delivery.
 
-#### What We Did
+#### What I Did
 
 * Identified two competing prioritization philosophies in use across KNEX teams:
   + **Effort-first:** sequence features by build complexity, tackle the heaviest items early.
@@ -154,7 +154,7 @@ To improve how KNEX made release sequencing decisions, I designed and ran a stru
 * Structured an **A/B comparison** across roadmap cycles to test which signal better predicted whether releases shipped on time.
 * Tracked delivery outcomes against the signal used during planning for each cycle.
 
-#### How We Did It
+#### How I Did It
 
 * Pulled historical roadmap and delivery data across product lines.
 * Tagged each release cycle by which prioritization signal dominated the planning discussion.
