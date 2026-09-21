@@ -15,7 +15,7 @@ About the Role
 
 ##  Projects & Contributions  
 
-### 1. Universal/Cross-Product Product Prioritization Framework  
+### 1. Universal / Cross-Product Product Prioritization Framework  
 
 I created an **universal framework in Excel** that could be reused across all KNEX products. The main goal was to make prioritization **objective, structured, and easy to communicate**. To achieve that, I combined multiple well-known models instead of relying on just one. Each model added its own perspective:  
 
