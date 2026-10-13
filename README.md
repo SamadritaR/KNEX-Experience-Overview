@@ -1,171 +1,199 @@
-# KNEX-Experience-Overview
-About the Role  
-**Product Management Intern** (Jun 2025 – Aug 2025)  
-- Worked directly with the CEO and product team on **AI-driven product development, product strategy, data management and product analytics initiatives**.  
-- Contributed to **roadmap structuring, PRD documentation, feature prioritization, and AI integration research** across multiple KNEX products.
+# KNEX Experience Overview
 
-##  Key Responsibilities  
-- Built KNEX's first **cross-product prioritization framework** in Excel, aligned with Oracle-style decision-making, designed for reusability across all KNEX products.  
-- Designed a **roadmap methodology** based on Oracle’s 3-tier structure (Plan of Record, Plan of Intent, Plan of Direction).  
-- Conducted **AI feasibility studies** for KNEX products, producing actionable recommendations.  
-- Evaluated **Oracle Fusion’s data migration limitations** and developed mitigation strategies for unified reporting.  
-- Restructured PRDs to be **platform-agnostic**, drawing inspiration from Jira/Confluence best practices.
+**Product Management Intern, KNEX Technology** | Jun 2025 to Aug 2025
 
-- ---
+KNEX is an Oracle Cloud Applications consultancy whose products and services sit on top of Oracle's ERP platforms. I worked directly with the CEO and the product team across AI product development, product strategy, ERP data management and product analytics. My work covered seven product lines and ran from early research all the way to an AI agent that engineering shipped.
 
-##  Projects & Contributions  
+## Impact at a Glance
 
-### 1. Universal / Cross-Product Product Prioritization Framework  
+* **15 AI use cases** evaluated end to end; **3 advanced** to deeper scoping and **2 greenlit** for development
+* **Lease Abstraction Agent shipped** with engineering, built from a PRD I wrote
+* **7 product lines** brought under one prioritization framework, cutting release planning time by **25%**
+* **Oracle Fusion and legacy ERP data split** diagnosed, with a fix proposed so reporting runs off one source
+* **Strategic value confirmed** as the stronger predictor of on time delivery and adopted as a default planning input
+* **One PRD system and one roadmap method** adopted across product teams in place of team by team formats
 
-I created an **universal framework in Excel** that could be reused across all KNEX products. The main goal was to make prioritization **objective, structured, and easy to communicate**. To achieve that, I combined multiple well-known models instead of relying on just one. Each model added its own perspective:  
+## Key Responsibilities
 
-- **ESVF (Effort, Strategic Value, Financial Impact, Feasibility):**  
-  - Helped us score features on a balanced scale.  
-  - Forced us to ask: *How much effort does this take? Does it tie to company strategy? What’s the financial upside? Is it feasible right now?*  
-  - Provided a **numeric, comparable score** for each feature.  
+* Ran an AI feasibility study across 15 use cases and turned it into a tiered executive recommendation that leadership acted on
+* Wrote the PRDs for the Lease Abstraction Agent and the RAG chatbot and worked with engineering to ship the lease agent
+* Mapped how KNEX products depend on Oracle NetSuite and Oracle Fusion Cloud ERP data, and used that map to judge what AI ideas were buildable
+* Diagnosed a reporting conflict caused by a partial Oracle Fusion migration and proposed a unified data path with the legacy system
+* Built KNEX's first cross product prioritization framework and a roadmap methodology modeled on Oracle's three tier structure
+* Rebuilt PRDs into a platform agnostic, modular system tied directly to roadmap execution
+* Ran a historical comparison of prioritization signals to find which one predicted on time delivery
 
-- **MoSCoW (Must-have, Should-have, Could-have, Won’t-have):**  
-  - Added **clarity for stakeholders**.  
-  - Instead of only numbers, features could be grouped into simple buckets.  
-  - Great for conversations with leadership when we needed a **quick, intuitive prioritization lens**.  
+# Projects and Contributions
 
-- **RACI (Responsible, Accountable, Consulted, Informed):**  
-  - Solved the **ownership gap** that often blocks execution.  
-  - Made it clear *who drives what*.  
-  - Helped track dependencies and accountability across teams.  
+## 1. Oracle ERP Landscape: NetSuite and Oracle Fusion Cloud
 
- **Why combine them?**  
-Because in real-world product management, no single framework tells the whole story.  
-- ESVF gave us the **quantitative backbone**.  
-- MoSCoW gave us a **fast, intuitive lens**.  
-- RACI ensured the plan was **practical and executable** by the team.  
+KNEX works across both of Oracle's ERP platforms: **NetSuite**, Oracle's cloud ERP for growing and mid sized businesses, and **Oracle Fusion Cloud ERP**, its enterprise suite. Before any AI idea or roadmap decision could be judged, I needed to understand where KNEX's data actually lived and how it moved between these systems.
 
-The outcome was a framework that felt **well-rounded, transparent, and actionable** — one that made decision-making smoother both internally (execution teams) and externally (stakeholders).  
+### What I Did
 
----
+* Studied how KNEX products connect to NetSuite and Oracle Fusion, including which modules (financials, procurement, inventory) each product reads from and writes to.
+* Mapped the data each product depends on, where it originates, and where it gets stuck or duplicated across systems.
+* Turned that map into the **architecture fit** and **data availability** criteria used in the AI feasibility study, so every use case was judged against the real ERP setup rather than an ideal one.
+* Used the same view to flag where cross product reporting would break, which pointed directly to the Oracle Fusion migration gap covered in the next section.
 
-### 2. Roadmap Methodology & Execution Sheet  
+### Why It Mattered
 
-####  Roadmap Methodology  
-- Developed a **structured methodology** to translate prioritized feature lists into product roadmaps.  
-- Adopted **Oracle’s 3-level roadmap structure** for external communication:  
-  - *Plan of Record* → Immediate release  
-  - *Plan of Intent* → Next release  
-  - *Plan of Direction* → Long-term vision  
-- Ensured clarity, intentionality, and stakeholder alignment in roadmap design.
-- Also, added  external facing aspect to the doc to share it to the stakeholders/clients.
+* AI and analytics ideas are only as good as the ERP data underneath them. This work kept recommendations grounded in what the systems could support today.
+* It gave the product team a shared picture of the ERP layer that had previously lived in individual heads.
 
-####  Roadmap Execution Sheet (Internal Use)  
-- Created a **companion Excel sheet** for **internal roadmap execution and tracking**.  
-- Provided step-by-step workflows so product teams could move from **roadmap → execution** smoothly.  
-- Integrated:  
-  - **Feature status tracking** (planned, in-progress, released)  
-  - **Cross-team dependencies**  
-  - **Release timelines & milestones**  
-  - **Ownership & accountability**  
-- Outcome: Enabled a **smoother process flow** for the internal team, reducing ambiguity and ensuring seamless delivery of roadmap items.  
+## 2. Oracle Fusion and Legacy ERP Data Migration Study
 
----
+### The Problem
 
-### 3. Tools & Confluence PRD – Product Management Enablement Plan  
+Leadership was getting different answers to the same question depending on which report they opened. One metric returned two numbers. The issue looked like a reporting bug, but the cause was in the data itself.
 
-I created a **Product Management Enablement Plan** focused on building a clear, repeatable PRD system for KNEX. The goal was to make documentation not just a formality, but an **enabler of smoother execution and stronger alignment**.  
+### What I Found
 
-####  What We Did  
-- Drew inspiration from **Jira/Confluence best practices**, but built everything inside KNEX’s context and tools (no external platform used).  
-- Designed a **modular PRD template** that works across all KNEX products, including:  
-  - Problem & business context  
-  - User stories and acceptance criteria  
-  - Dependencies and risks  
-  - Success metrics  
-  - Decision log for key choices  
-- Developed a **step-by-step enablement guide** so teams knew not just *what to write*, but *why it mattered*.  
+* KNEX had moved from its legacy system, **KTH**, to **Oracle Fusion**, but Oracle Fusion's migration tooling only carried over part of the historical data.
+* The result was a **split history**: records from before go live stayed in KTH, records after go live lived in Oracle Fusion, and no single system held the full picture.
+* Any report spanning the go live date was either incomplete or stitched together by hand, which is why the same metric disagreed across reports.
+* I used SQL analysis to compare records across both systems and confirm where the split occurred and which reports it affected.
 
-####  How We Did It  
-- Reviewed gaps in existing documentation.  
-- Drafted the PRD pack, then tested it live with product discussions.  
-- Took feedback from leadership and PMs, simplifying where things were too heavy and adding clarity where needed.  
-- Connected the PRD pack with the **roadmap execution sheet**, so specs flowed naturally into delivery.  
+### What I Proposed
 
-####  Why It Worked  
-- **Unified:** every product team worked with the same approach.  
-- **Adoptable:** lightweight enough that people actually used it.  
-- **Traceable:** tied strategy → roadmap → execution in one flow.  
-- **Scalable:** reusable across all future KNEX products.  
+* **Duplicating Oracle Fusion transactions into KTH** so that one system held the complete history from both periods.
+* This kept reporting and analytics on a single source without paying for a full remigration of historical data into Oracle Fusion.
+* The fix targeted the inputs rather than the report. Correcting the report alone would have left every future report open to the same conflict.
 
-The outcome was a PRD system that **reduced confusion, improved accountability, and made product management more effective across KNEX**.  
+### Why It Mattered
 
----
-### 4. AI Integration Research & Recommendations  
-- **Lease Abstraction Agent (LAA):** Automated lease data extraction  
-- **AI Load Checker:** System load monitoring + optimization signals  
-- **Inventory Flow Agent:** Tracking + forecasting improvements  
-- **Unified Dashboard:** Cross-product insights for leadership  
-- Kept ideas **practical and cost-aware**, focusing on measurable impact.
+* Restored trust in the numbers leadership used for decisions.
+* Gave analytics one place to query instead of two systems with a gap between them.
+* Taught me to treat "the report is wrong" as a question about the data before treating it as a question about the report.
 
----
+## 3. AI Feasibility Study: 15 Use Case Evaluation
 
-### 5. Oracle Fusion Data Migration Study  
-- Noted limits (e.g., partial historical migration) → data split between **KTH (pre-go-live)** and **Oracle (post-go-live)**.  
-- Proposed **transaction duplication into KTH** for unified reporting and easier analytics access.  
+I led an end to end evaluation of **15 proposed AI use cases** across KNEX products. The goal was to move the team from broad AI curiosity to a short, investment ready list.
 
----
+### What I Did
 
-### 6. AI Feasibility Study – 15 Use Case Evaluation
+* Interviewed stakeholders across all 7 product lines to surface where AI could remove manual work, and consolidated scattered requests into a backlog of 15 candidates spanning automation, intelligence and integration.
+* Scored every use case on a structured rubric across four dimensions:
+  * **System architecture fit:** can KNEX's current stack, including its NetSuite and Oracle Fusion setup, support it, and what would have to change?
+  * **Data quality and availability:** is the underlying data clean, structured and accessible enough to power the model?
+  * **Integration complexity:** how many systems, APIs and workflows does it touch, and what is the risk of breakage?
+  * **Cost and benefit:** what is the expected lift in time saved, accuracy or revenue against the cost to build?
+* Worked with engineering leads to pressure test feasibility assumptions before anything reached leadership.
+* Ranked initiatives by strategic value and readiness, then packaged them into a three tier executive recommendation: **build now, explore further, or deprioritize**, each with a one line rationale and a clear next step.
 
-I led an end-to-end AI feasibility evaluation across **15 potential AI use cases** for KNEX products. The goal was to move the team from broad AI curiosity to a focused, investment-ready shortlist.
+### Outcome
 
-#### What I Did
+* **3 initiatives** advanced to deeper scoping.
+* **2 were formally greenlit**: the Lease Abstraction Agent and the RAG based chatbot.
+* Leadership left with a concrete shortlist instead of a wish list, grounded in KNEX's actual data and system limits rather than AI hype.
 
-* Audited **15 proposed AI initiatives** spanning automation, intelligence, and integration across KNEX product lines.
-* Evaluated each use case across four dimensions:
-  + **System Architecture fit** – Does KNEX's current tech stack support this? What would need to change?
-  + **Data Quality & Availability** – Is the underlying data clean, structured, and accessible enough to train or power the model?
-  + **Integration Complexity** – How many systems, APIs, or workflows would this touch? What's the risk of breakage?
-  + **Cost-Benefit Analysis** – What's the estimated lift (time saved, accuracy gained, revenue potential) relative to the build cost?
-* Synthesized findings into an **executive-ready presentation** with a tiered recommendation framework: build now, explore further, or deprioritize.
+## 4. AI Products: From Recommendation to Build
 
-#### How I Did It
+### Lease Abstraction Agent (shipped)
 
-* Mapped each use case against KNEX's existing data infrastructure and product architecture.
-* Collaborated with engineering leads to pressure-test feasibility assumptions.
-* Scored each initiative on a structured rubric, then ranked them by strategic value and implementation readiness.
-* Packaged findings into a clear narrative: what's possible now, what's possible with investment, and what's not yet viable.
+* Wrote the PRD for an LLM based agent that pulls key terms out of governed lease documents and turns them into structured, reviewable data.
+* Defined the scope, extraction fields, success metrics and acceptance criteria engineering built against.
+* Worked with engineering through the build and shipped the agent.
 
-#### Why It Worked
+### RAG Based Chatbot (greenlit)
 
-* **Grounded in reality:** recommendations were tied to KNEX's actual data and system constraints, not generic AI hype.
-* **Actionable:** leadership walked away with a concrete shortlist, not a long wish list.
-* **Executive-ready:** the framing was designed for decision-makers — each recommendation included a one-line rationale and clear next step.
+* Wrote the PRD for a retrieval based chatbot over KNEX's data governance documentation, built to answer questions about abstracted lease information for whoever needs it.
+* Designed it to pair with the Lease Abstraction Agent, so extracted data could be queried in plain language instead of read line by line.
 
-**Outcome:** 3 initiatives advanced to deeper scoping; **2 were formally greenlit** for development — including the Lease Abstraction Agent and the RAG-based chatbot.
+### Further AI Research and Scoping
 
----
+* **Inventory Flow Agent:** scoped an agent for inventory tracking and forecasting across product lines, defining the data model, success metrics and specs engineers would build from.
+* **AI Load Checker:** researched system load monitoring that surfaces optimization signals before performance degrades.
+* **Unified Dashboard:** proposed a single leadership view of cross product utilization and performance.
+* Kept every idea practical and cost aware, with a measurable outcome attached.
 
-### 7. Prioritization Signal Study – A/B Testing Framework
+## 5. Cross Product Prioritization Framework
 
-To improve how KNEX made release sequencing decisions, I designed and ran a structured analysis to determine which prioritization signals were actually predictive of on-time delivery.
+I built KNEX's **first cross product prioritization framework** in Excel, designed to be reused across all seven product lines and aligned with Oracle style decision making. The goal was prioritization that was objective, structured and easy to explain. No single model tells the whole story, so I combined three:
 
-#### What I Did
+* **ESVF (Effort, Strategic Value, Financial Impact, Feasibility):** the quantitative backbone. Every feature got a numeric, comparable score that forced four questions: how much effort, how strongly it ties to strategy, what the financial upside is, and whether it is feasible now.
+* **MoSCoW (Must, Should, Could, Won't):** a fast, intuitive lens for leadership conversations where buckets communicate better than scores.
+* **RACI (Responsible, Accountable, Consulted, Informed):** closed the ownership gap that often stalls execution by making clear who drives what and tracking dependencies across teams.
 
-* Identified two competing prioritization philosophies in use across KNEX teams:
-  + **Effort-first:** sequence features by build complexity, tackle the heaviest items early.
-  + **Strategic value-first:** sequence features by business impact, ship high-value items first.
-* Structured an **A/B comparison** across roadmap cycles to test which signal better predicted whether releases shipped on time.
-* Tracked delivery outcomes against the signal used during planning for each cycle.
+### Outcome
 
-#### How I Did It
+* One shared method across 7 product lines in place of team by team judgment calls.
+* **Release planning time cut by 25%.**
+* Decisions became transparent for execution teams internally and for stakeholders externally.
 
-* Pulled historical roadmap and delivery data across product lines.
-* Tagged each release cycle by which prioritization signal dominated the planning discussion.
-* Compared on-time delivery rates across both groups.
-* Controlled for confounding factors (team size, scope changes, dependency blockers) to isolate the effect of the prioritization input.
+## 6. Roadmap Methodology and Execution Sheet
 
-#### Why It Worked
+### Roadmap Methodology
 
-* **Data-driven, not opinion-driven:** instead of debating frameworks in the abstract, we let delivery data answer the question.
-* **Directly actionable:** findings were tied to a specific process change — which input to weight more heavily during sprint planning.
-* **Cross-team buy-in:** because the analysis was transparent and evidence-based, leadership accepted the recommendation without pushback.
+* Built a structured method to turn a prioritized feature list into a product roadmap.
+* Adopted **Oracle's three tier roadmap structure** for external communication:
+  * **Plan of Record:** committed for the immediate release
+  * **Plan of Intent:** planned for the next release
+  * **Plan of Direction:** long term vision
+* Added an external facing version so the roadmap could be shared with clients and stakeholders without exposing internal detail.
 
-**Outcome:** Findings were presented to leadership and directly influenced how KNEX sequences its roadmap. Strategic value was confirmed as the stronger predictor of on-time delivery, and the framework was adopted as a default input for future release planning cycles.
+### Roadmap Execution Sheet (Internal)
 
+* Built a companion Excel sheet so product teams could move from roadmap to delivery step by step.
+* Tracked feature status (planned, in progress, released), cross team dependencies, release timelines and milestones, and ownership.
+* **Outcome:** less ambiguity between planning and delivery, and a clear line of sight from roadmap item to release.
+
+## 7. PRD System and Product Management Enablement Plan
+
+I created a **Product Management Enablement Plan** to give KNEX a clear, repeatable PRD system, so documentation drove execution instead of being a formality.
+
+### What I Built
+
+* A **modular, platform agnostic PRD template** usable across all KNEX products, modeled on Jira and Confluence best practices but built inside KNEX's own tools. It covers:
+  * Problem and business context
+  * User stories and acceptance criteria
+  * Dependencies and risks
+  * Success metrics
+  * A decision log for key choices
+* A step by step **enablement guide** explaining not just what to write, but why each part matters.
+
+### How I Did It
+
+* Audited existing documentation for gaps.
+* Drafted the PRD pack and tested it in live product discussions.
+* Simplified what felt heavy and clarified what was vague based on feedback from leadership and PMs.
+* Linked the PRD pack to the roadmap execution sheet so specs flowed straight into delivery.
+
+### Outcome
+
+* **Unified:** every product team worked from the same structure.
+* **Adoptable:** light enough that people used it.
+* **Traceable:** strategy, roadmap and execution connected in one flow.
+* **Scalable:** reusable for future KNEX products.
+
+## 8. Prioritization Signal Study
+
+To improve how KNEX sequenced releases, I tested which prioritization signal actually predicted on time delivery.
+
+### What I Did
+
+* Identified two competing philosophies in use across teams:
+  * **Effort first:** tackle the heaviest builds early.
+  * **Strategic value first:** ship the highest impact items first.
+* Pulled historical roadmap and delivery data across product lines and tagged each release cycle by which signal dominated its planning.
+* Compared on time delivery rates between the two groups, controlling for team size, scope changes and dependency blockers to isolate the effect of the planning input.
+
+### Outcome
+
+* **Strategic value proved the stronger predictor** of on time delivery.
+* Leadership accepted the recommendation without pushback because the analysis was transparent and evidence based.
+* It became a **default input for future release planning cycles.**
+
+## Tools and Skills
+
+* **ERP and data:** Oracle Fusion Cloud ERP, Oracle NetSuite, legacy ERP (KTH), SQL, data migration analysis, data reconciliation
+* **AI product:** LLM extraction, RAG, AI feasibility and cost benefit analysis, PRD writing
+* **Product management:** prioritization frameworks (ESVF, MoSCoW, RACI), roadmapping (Plan of Record, Intent, Direction), stakeholder interviews, executive communication
+* **Tools:** Excel, Jira and Confluence practices
+
+## What I Took Away
+
+* **Fix inputs before outputs.** The biggest reporting problem I found was not in the report at all. It was in how two ERP systems split one company's history.
+* **Feasibility beats enthusiasm.** Scoring AI ideas against real architecture and real data is what turned 15 ideas into 2 that got built.
+* **Frameworks only work if people use them.** The PRD system and prioritization framework stuck because I tested them in live discussions and cut what felt heavy.
+* **Working with a CEO compresses learning.** Every recommendation had to hold up to a direct question about cost, risk and impact, which shaped how I build every case since.
