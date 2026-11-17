@@ -1,24 +1,24 @@
 # KNEX Experience Overview
 
-**Product Management Intern, KNEX Technology** | Jun 2025 to Aug 2025
+**Product Manager (Intern), KNEX Technology** | Jun 2025 to Aug 2025
 
-KNEX is an Oracle Cloud Applications consultancy whose products and services sit on top of Oracle's ERP platforms. I worked directly with the CEO and the product team across AI product development, product strategy, ERP data management and product analytics. My work covered seven product lines and ran from early research all the way to an AI agent that engineering shipped.
+KNEX is an Oracle Cloud Applications consultancy whose products and services sit on top of Oracle's ERP platforms. I worked directly with the CEO and the product team across AI product development, product strategy, ERP data management and product analytics. My work covered seven product lines and ran from early research all the way to two AI products that shipped.
 
 ## Impact at a Glance
 
 * **15 AI use cases** evaluated end to end; **3 advanced** to deeper scoping and **2 greenlit** for development
-* **Lease Abstraction Agent shipped** with engineering, built from a PRD I wrote
+* **Lease Abstraction Agent and client facing RAG chatbot shipped** from PRDs I wrote, with build time cut **45%** by choosing RAG after testing it against plain LLM extraction on 25 leases and 150 terms
 * **7 product lines** brought under one prioritization framework, cutting release planning time by **25%**
-* **Oracle Fusion and legacy ERP data split** diagnosed, with a fix proposed so reporting runs off one source
+* **Oracle Fusion and legacy ERP data split** diagnosed and fixed with an Airflow sync, making operations reporting **40% faster**
 * **Strategic value confirmed** as the stronger predictor of on time delivery and adopted as a default planning input
 * **One PRD system and one roadmap method** adopted across product teams in place of team by team formats
 
 ## Key Responsibilities
 
 * Ran an AI feasibility study across 15 use cases and turned it into a tiered executive recommendation that leadership acted on
-* Wrote the PRDs for the Lease Abstraction Agent and the RAG chatbot and worked with engineering to ship the lease agent
+* Wrote the PRDs for the Lease Abstraction Agent and the client facing RAG chatbot and worked with engineering to ship both
 * Mapped how KNEX products depend on Oracle NetSuite and Oracle Fusion Cloud ERP data, and used that map to judge what AI ideas were buildable
-* Diagnosed a reporting conflict caused by a partial Oracle Fusion migration and proposed a unified data path with the legacy system
+* Diagnosed a reporting conflict caused by a partial Oracle Fusion migration and built an Airflow sync that unified it with the legacy system
 * Built KNEX's first cross product prioritization framework and a roadmap methodology modeled on Oracle's three tier structure
 * Rebuilt PRDs into a platform agnostic, modular system tied directly to roadmap execution
 * Ran a historical comparison of prioritization signals to find which one predicted on time delivery
@@ -54,15 +54,16 @@ Leadership was getting different answers to the same question depending on which
 * Any report spanning the go live date was either incomplete or stitched together by hand, which is why the same metric disagreed across reports.
 * I used SQL analysis to compare records across both systems and confirm where the split occurred and which reports it affected.
 
-### What I Proposed
+### What I Proposed and Built
 
-* **Duplicating Oracle Fusion transactions into KTH** so that one system held the complete history from both periods.
+* Proposed **duplicating Oracle Fusion transactions into KTH** so that one system held the complete history from both periods.
+* Built the sync as an **Airflow** job that copies new Oracle Fusion transactions into KTH on a schedule.
 * This kept reporting and analytics on a single source without paying for a full remigration of historical data into Oracle Fusion.
 * The fix targeted the inputs rather than the report. Correcting the report alone would have left every future report open to the same conflict.
 
 ### Why It Mattered
 
-* Restored trust in the numbers leadership used for decisions.
+* Restored trust in the numbers leadership used for decisions and made operations reporting **40% faster**, since nobody had to stitch two systems together by hand.
 * Gave analytics one place to query instead of two systems with a gap between them.
 * Taught me to treat "the report is wrong" as a question about the data before treating it as a question about the report.
 
@@ -84,21 +85,23 @@ I led an end to end evaluation of **15 proposed AI use cases** across KNEX produ
 ### Outcome
 
 * **3 initiatives** advanced to deeper scoping.
-* **2 were formally greenlit**: the Lease Abstraction Agent and the RAG based chatbot.
+* **2 were formally greenlit**: the Lease Abstraction Agent and the client facing RAG chatbot.
 * Leadership left with a concrete shortlist instead of a wish list, grounded in KNEX's actual data and system limits rather than AI hype.
 
 ## 4. AI Products: From Recommendation to Build
 
 ### Lease Abstraction Agent (shipped)
 
-* Wrote the PRD for an LLM based agent that pulls key terms out of governed lease documents and turns them into structured, reviewable data.
+* Wrote the PRD for an LLM based agent that pulls key terms out of governed lease documents, with the source clause for each, and turns them into structured, reviewable data.
 * Defined the scope, extraction fields, success metrics and acceptance criteria engineering built against.
+* Tested RAG against plain LLM extraction on 25 leases and 150 terms and chose RAG, which cut build time **45%**.
 * Worked with engineering through the build and shipped the agent.
 
-### RAG Based Chatbot (greenlit)
+### Client Facing RAG Chatbot (shipped)
 
-* Wrote the PRD for a retrieval based chatbot over KNEX's data governance documentation, built to answer questions about abstracted lease information for whoever needs it.
-* Designed it to pair with the Lease Abstraction Agent, so extracted data could be queried in plain language instead of read line by line.
+* Wrote the PRD for a retrieval based chatbot that lets clients ask questions in plain language and get answers fetched from governed documents, with the source cited.
+* Designed it to pair with the Lease Abstraction Agent, so extracted lease data could be queried instead of read line by line.
+* Shipped it with engineering, which cut inbound support questions to the team.
 
 ### Further AI Research and Scoping
 
@@ -189,7 +192,7 @@ To improve how KNEX sequenced releases, I tested which prioritization signal act
 * **ERP and data:** Oracle Fusion Cloud ERP, Oracle NetSuite, legacy ERP (KTH), SQL, data migration analysis, data reconciliation
 * **AI product:** LLM extraction, RAG, AI feasibility and cost benefit analysis, PRD writing
 * **Product management:** prioritization frameworks (ESVF, MoSCoW, RACI), roadmapping (Plan of Record, Intent, Direction), stakeholder interviews, executive communication
-* **Tools:** Excel, Jira and Confluence practices
+* **Tools:** Excel, Airflow, Jira and Confluence practices
 
 ## What I Took Away
 
